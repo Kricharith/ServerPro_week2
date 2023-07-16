@@ -6,7 +6,7 @@
     }
 body{
     background-color: rgb(126, 22, 22);
-    background-image: url('images/bg.jpg');
+    background-image: url('/bg.jpg');
     display: grid; 
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); 
     min-height: auto;
