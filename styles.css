@@ -17,10 +17,21 @@ body{
     margin: auto;
     padding: 1%;
 }
+.underlined-text {
+    text-decoration: underline;
+}
 .form{
     padding: 10px 150px;
 }
-.container {
+.container1 {
+    background-color: #950006;
+    max-width: 1200px; /* กำหนดความกว้างสูงสุดของ container */
+    margin-left: auto; /* จัดชิดขอบซ้าย */
+    margin-right: auto; /* จัดชิดขอบขวา */
+    padding: 20px; /* เพิ่มระยะขอบใน container */
+    box-sizing: border-box; /* กำหนดให้ขอบของ container นับเข้าไปในความกว้างทั้งหมด */
+  }
+ .container2 {
     background-color: #950006;
     max-width: 1200px; /* กำหนดความกว้างสูงสุดของ container */
     margin-left: auto; /* จัดชิดขอบซ้าย */
